@@ -1,0 +1,281 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Red {
+    background-color: red;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    color: white;
+    padding-right: 2px;
+    margin-left: 5px;
+    padding-left: 1px;
+    left: 9px;
+    padding-top: 13px;
+    list-style: none;
+}
+
+ul li:hover {
+    font-weight: bold;
+}
+
+.logos {
+    padding-top: 10px;
+}
+
+.logos:hover {
+    box-shadow: 3px 3px 5px #333;
+}
+
+.social {
+    padding-left: 240px;
+}
+
+.socialpics {
+    padding-top: 13px;
+}
+
+.socialpics:hover {
+    box-shadow: 1px 1px 2px #333333;
+}
+
+.bata {
+    padding-top: 20px;
+    background-position: center;
+    width: 320px;
+    padding-left: 50px;
+    margin-left: 36px;
+}
+
+.search {
+    padding-top: 40px;
+}
+
+.input-text {
+    font-style: italic;
+    height: 35px;
+    color: #b8b7b7;
+    border-color: #f2f2f2;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 0px solid;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+
+.searchline {
+    margin-top: 10px;
+}
+
+.search-pic {
+    position: absolute;
+    right: 90px;
+    margin-top: 12px;
+}
+
+.search-pic:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.cart {
+    padding-top: 57px;
+    padding-left: 126px;
+}
+
+.third {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.Row-3 {}
+
+.varities {
+    padding-left: 64px;
+    color: #333333;
+}
+
+/* Grey Panel */
+
+.wrapper-breadcrums {
+    background-image: none !important;
+}
+
+.wrapper-breadcrums {
+    background-color: #f1f1f1;
+    background-image: url(../images/bkg-breadcrums.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.listcolor {
+    color: black;
+}
+
+.wrapper-breadcrums .breadcrumbs {
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.wrapper-breadcrums .items {
+    font: 600 11px/1.35 Lato, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.wrapper-breadcrums .items {
+    font-size: 1.2rem;
+    color: #a3a3a3;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper-breadcrums .items a {
+    color: #a3a3a3;
+}
+
+.wrapper-breadcrums .items li {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 25px;
+    margin-left: 25px;
+}
+
+.wrapper-breadcrums li {
+    text-transform: uppercase;
+}
+
+.wrapper-breadcrums .item:not(:last-child) {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.wrapper-breadcrums .items {
+    font: 600 11px/1.35 Lato, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.wrapper-breadcrums a:hover {
+    color: #7e2c3a;
+    text-decoration: none;
+}
+
+.filter-options-title {
+    cursor: pointer;
+    margin: 0;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding: 8px 34px 5px 12px;
+    position: relative;
+    text-transform: uppercase;
+    word-break: break-all;
+    z-index: 1;
+    color: #141414;
+    font: 500 12px/1.55 Lora, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: block;
+    text-decoration: none;
+}
+
+filter-options-title:hover {
+    color: #000;
+}
+
+.general {
+    height: 341px;
+    width: inherit;
+    box-shadow: 8px 10px 10px -12px black;
+}
+
+.general:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.numbers {
+    position: relative;
+    padding-left: 380px;
+    height: 100px;
+}
+
+.numberbox {
+    height: 35px;
+}
+
+.numberbox:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+/* Footer Section */
+
+.light-color {
+    background-color: lightgray;
+    height: 90vh;
+    padding-top: 30px;
+}
+
+.box {
+    padding: 14px;
+    width: 397px;
+    padding-left: 51px;
+}
+
+.box-description {
+    font-size: larger;
+    margin: 18px;
+}
+
+.action {
+    position: relative;
+    left: 683px;
+    top: -57px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.action:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.links {
+    text-decoration: none;
+    color: #000;
+}
+
+.easypaisa {
+    height: 58px;
+}
+
+.easypaisa:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.clickme {
+    height: 70px;
+    width: 245px;
+}
+
+.clickme:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.last-para {
+    background-color: lightgray;
+    height: 30 vh;
+}
+
+footer {
+    background-color: red;
+    color: white;
+}
